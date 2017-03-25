@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+#main_info {
+    width: 50%;
+    height: 100%;
+    margin-left: 25%;
+}
+
+#first_wrapper {
+	height: 100%;
+    margin-bottom: 1%;
+}
+
+.big_title {
+	font-family: 'Ubuntu';
+    font-size: 2em;
+    font-weight: bold;
+    color: #3161b1;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+.info {
+	text-align: center;
+    font-family: 'PT Sans';
+    color: #2f2626;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 3%;
+}
+
+.info>p {
+    font-family: 'PT Sans';
+    color: #2f2626;
+    margin-bottom: 0.5%;
+    margin-top: 0.5%;
+}
+
+ul {
+    margin-left: 3%;
+}
+
+li {
+    list-style-type: none;
+    margin-bottom: 2%;
+}
+
+li>span {
+    font-family: 'PT Sans';
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #3161b1;
+}
+
+li>p {
+    font-family: 'PT Sans';
+    font-size: 1.2em;
+    color: #2f2626;
+    font-weight: bold;
+    margin-top: 0.5%;
+}

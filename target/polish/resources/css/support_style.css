@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+li>a {
+    font-family: 'PT Sans';
+    font-size: 1.5em;
+}

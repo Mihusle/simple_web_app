@@ -1,0 +1,28 @@
+#another_inventory {
+	width: 55%;
+    min-height: 501px;
+    border: 1px solid #434343;
+}
+
+.item {
+    background-color: #40b8f7;
+}
+
+.item>img {
+    margin-left: 32%;
+    margin-top: -7%;
+}
+
+.item>span {
+	float: left;
+    margin-left: 20%;
+    max-width: 60%;
+}
+
+#prev {
+    margin-left: 24%;
+}
+
+#next {
+	margin-left: 29%;
+}

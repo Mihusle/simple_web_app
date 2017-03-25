@@ -1,0 +1,487 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+#main {
+    float: left;
+}
+
+#aside {
+    float: left;
+    margin-top: 20px;
+}
+
+#courses {
+	float: left;
+    width: 60%;
+    margin-left: 5px;
+}
+
+.course {
+	width: 100%;
+    margin-bottom: 10px;
+    float: left;
+    font-family: 'PT Sans', serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #2f2626;
+}
+
+.course>img {
+    border: 2px solid #dfdfdf;
+    border-radius: 5px;
+    width: 80%;
+    height: 140px;
+    float: left;
+    margin-right: 10px;
+}
+
+.heading {
+    font-weight: lighter;
+    font-size: 1.4em;
+    font-family: 'PT Sans', serif;
+    border-bottom: 2px solid #3161b1;
+    float: left;
+    color: #3161b1;
+    padding: 0px 5px;
+}
+
+.center_text {
+	font-family: 'PT Sans', serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #434343;
+    margin-left: 25%;
+}
+
+#servers {
+	float: right;
+    margin-right: 17%;
+}
+
+#main>span {
+    font-family: 'PT Sans', serif;
+    font-size: 2em;
+    width: 80%;
+    margin: 7px 10%;
+    float: left;
+    text-align: center;
+    color: #3161b1;
+    margin-left: 23%
+}
+
+#main>p {
+	color: #2f2626;
+    text-align: center;
+    white-space: normal;
+}
+
+.proposal {
+	text-align: left;
+    font-family: 'PT Sans', serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #434343;
+}
+
+#one_course {
+    width: 100%;
+    margin-bottom: 10px;
+    float: left;
+    font-family: 'PT Sans', serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #2f2626;
+}
+
+#one_course>img {
+    border: 2px solid #dfdfdf;
+    border-radius: 5px;
+    width: 7%;
+    float: left;
+    margin-right: 10px;
+}
+
+#one_course>span {
+    font-weight: bold;
+    color: rgba(236, 101, 88, 1);
+}
+
+@media(min-width: 1051px) {
+    #main {
+        width: 60%;
+        margin-left: 3%;
+    }
+
+    #aside {
+        width: 30%;
+        margin-left: 2%;
+    }
+    
+    #news {
+        margin-left: 10%;
+        width: 90%;
+    }
+}
+
+@media(max-width:1050px) and (min-width: 911px) {
+    #main {
+        width: 65%;
+        margin-left: 2%;
+    }
+
+    #aside {
+        width: 32%;
+    }
+    
+    #news {
+        margin-left: 4%;
+        width: 96%;
+    }
+}
+
+@media(max-width:910px) and (min-width: 500px) {
+    #main {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    #aside {
+        width: 50%;
+        margin-left: 25%;
+    }
+    
+    #news {
+        margin-left: 4%;
+        width: 96%;
+    }
+}
+
+@media (max-width:499px) {
+    #main {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    #aside {
+        width: 90%;
+        margin-left: 10%;
+    }
+    
+    #news {
+        margin-left: 4%;
+        width: 96%;
+    }
+}
+
+@media(min-width: 1220px) {
+    .article {
+        width: 40%;
+        margin-right: 10%;
+    }
+}
+
+@media(max-width: 1219px) and (min-width: 911px) {
+    .article {
+        width: 46%;
+        margin-right: 4%;
+    }
+}
+
+@media(max-width: 910px) and (min-width: 650px) {
+    .article {
+        width: 45%;
+        margin-right: 5%;
+    }
+}
+
+@media(max-width: 649px) and (min-width: 500px) {
+    .article {
+        width: 70%;
+        margin-right: 15%;
+    }
+}
+
+@media(max-width: 499px) {
+    .article {
+	   width: 90%;
+        margin-right: 5%;
+    }
+}
+
+/*Subscribe*/
+
+/*#subscribe {
+    float: left;
+    text-align: center;
+    margin-bottom: 20px;
+}*/
+
+@media(min-width: 911px) {
+    #subscribe {
+        width: 70%
+    }
+    
+    #sub_to_project {
+	   width: 25%;
+    }
+}
+
+@media(max-width: 910px) {
+    #subscribe {
+        width: 100%;
+    }
+    
+    #sub_to_project {
+	   width: 80%;
+        margin-left: 10%;
+    }
+}
+
+#subscribe>span {
+    font-family: 'PT Sans', serif;
+    font-size: 2em;
+    color: #434343;
+}
+
+#vk_groups {
+	margin: auto;
+}
+
+#chests_line {
+	width: 98%;
+    border-top: 2px solid #d7d7d7;
+    border-bottom: 2px solid #d7d7d7;
+    position: relative;
+    padding: 1%;
+    background-color: #3161b1;
+    text-align: center;
+    min-height: 0px;
+}
+
+#chests_line>span {
+	font-family: 'PT Sans', serif;
+    font-size: 2.5em;
+    color: white;
+}
+/*End of subscribe*/
+
+/*Chests*/
+#chests {
+	width: 60%;
+    height: 450px;
+    margin-left: 22%;
+    margin-bottom: 20px;
+    font-family: 'PT Sans', serif;
+}
+
+.one_chest {
+	width: 30%;
+    height: 350px;
+    float:left;
+    margin-right: 1%;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 1%;
+    border: 1px solid #3161b1;
+}
+
+.price {
+	width: 20%;
+    height: 7%;
+    background-color: #3e92db;
+    color: white;
+    padding-top: 3px;
+    margin-left: 5px;
+    margin-top: 2px;
+    margin-bottom: -16px;
+    border-radius: 15px;
+    font-family: 'PT Sans', serif;
+    border: 1px solid grey;
+}
+
+.one_chest>a {
+	display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.one_chest>a>img {
+    width: 45%;
+}
+
+.one_chest>a>.name {
+	text-align: center;
+    color: #191616;
+    font-size: 2em;
+    margin-top: 2%;
+}
+
+.one_chest>a>.short_desc {
+    text-align: center;
+    color: #191616;
+    font-size: 1.2em;
+    height: 25%;
+    margin-top: 4%;
+    font-family: 'Ubuntu', serif;
+}
+
+.one_chest>a>span {
+    color: #191616;
+    font-size: 2em;
+}
+/*End of chests*/
+
+/*Paymanets*/
+#payments {
+	width: 60%;
+    height: 250px;
+    margin-left: 21%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#payments>span {
+	font-family: 'PT Sans', serif;
+    font-size: 2em;
+    color: #434343;
+}
+
+#payments>p {
+    margin-top: 20px;
+	font-size: 1.5em;
+    font-family: 'Ubuntu', serif;
+    color: #2f2f2f;
+}
+
+#balance {
+	margin-top: 50px;
+    width: 50%;
+    margin-left: 23.5%;
+}
+/*End of payments*/
+
+/*Getting money*/
+#get_money {
+	width: 60%;
+    height: 1000px;
+    margin-left: 21%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#getting_title {
+	font-family: 'PT Sans', serif;
+    font-size: 2em;
+    color: #434343;
+}
+
+#server {
+	margin-top: 20px;
+    margin-bottom: 20px;
+    width: 96%
+}
+
+#inventory {
+	min-height: 50%;
+    width: 50%;
+    margin-left: 23%;
+    margin-top: 20px;
+    background-color: #40b8f7;
+    border: 1px solid #434343;
+    border-bottom: 2px solid #434343;
+}
+
+.item {
+    float: left;
+    width: 32.95%;
+    height: 165px;
+    border: 1px solid #434343;
+}
+
+.item>input {
+    float: left;
+    width: 20%;
+    height: 20%;
+    margin-top: 2px
+}
+
+.item>img {
+	width: 35%;
+    height: 41%;
+    margin-top: 20px;
+    margin-right: 17%;
+    margin-bottom: 15px;
+}
+
+.item>span {
+	color: #434343;
+    font-family: 'PT Sans', serif;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#prev {
+    float: left;
+	width: 3%;
+    height: 3%;
+    margin-left: 44%;
+    margin-top: 10px;
+    background-color: #40b8f7;
+    border: 1px solid #434343;
+}
+
+#prev>a {
+	color: #434343;
+    font-family: 'PT Sans', serif;
+    font-weight: bold;
+    display: block;
+    width: 100%;
+    height: 97%;
+    font-size: 0.8em;
+    padding-top: 6px;
+}
+
+#next {
+    width: 3%;
+    height: 3%;
+    margin-left: 49%;
+    margin-top: 10px;
+    background-color: #40b8f7;
+    border: 1px solid #434343;
+    margin-bottom: 20px;
+}
+
+#next>a {
+	color: #434343;
+    font-family: 'PT Sans', serif;
+    font-weight: bold;
+    display: block;
+    width: 100%;
+    height: 97%;
+    font-size: 0.8em;
+    padding-top: 6px;
+}
+
+#inquery {
+	margin-top: 20px;
+    width: 50%;
+    margin-left: 23.5%;
+}
+
+#inq-title {
+	font-family: 'PT Sans', serif;
+    font-size: 1.5em;
+    color: #434343;
+}
+
+/*End of getting money*/
+
+/*Backgrounds*/
+
+#first_wrapper {
+	width: 101%;
+    height: 450px;
+    margin-top: 100px;
+}
+
+/*End of backgrounds*/

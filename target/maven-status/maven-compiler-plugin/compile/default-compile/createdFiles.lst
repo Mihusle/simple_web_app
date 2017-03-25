@@ -1,0 +1,11 @@
+beans\User.class
+controllers\CommentController.class
+controllers\LoginController.class
+beans\Comment.class
+validators\login\PasswordValidator.class
+validators\register\EmailValidator.class
+validators\login\NameValidator.class
+validators\register\PasswordValidator.class
+db\DataBase.class
+validators\register\NameValidator.class
+db\DBUtils.class

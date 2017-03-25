@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+<h:head>
+    <title>Login</title>
+    <h:outputStylesheet library="css" name="style_login.css"/>
+    <h:outputStylesheet library="css" name="demo.css"/>
+    <h:outputStylesheet library="css" name="animate-custom.css"/>
+    <meta name="description" content="Bla"/>
+    <meta name="viewport" content="width-device-width, initial-scale=1"/>
+    <h:outputScript library="js" name="jquery-3.1.1.min.js"/>
+</h:head>
+<body>
+<!--<section>-->
+<div id="container_demo" >
+    <h:form>
+        <h:commandLink styleClass="hiddenanchor" id="toregister"/>
+        <h:commandLink styleClass="hiddenanchor" id="tologin"/>
+    </h:form>
+    <div id="wrapper">
+        <div id="register" class="animate form">
+            <h:form autocomplete="on">
+                <h1> Регистрация </h1>
+                <p>
+                    <label for="usernamesignup" class="uname">Ник</label>
+                    <h:inputText id="usernamesignup" value="#{user.name}" required="true" requiredMessage="Name can't be empty" placeholder="mysuperusername690">
+                        <f:validator validatorId="validators.register.NameValidator"/>
+                    </h:inputText>
+                    <h:message for="usernamesignup" styleClass="error"/>
+                </p>
+                <p>
+                    <label for="emailsignup" class="youmail" >Email</label>
+                    <h:inputText id="emailsignup" value="#{user.email}" required="true" requiredMessage="e-mail can't be empty" placeholder="mysupermail@mail.com">
+                        <f:validator validatorId="validators.register.EmailValidator"/>
+                    </h:inputText>
+                    <h:message for="emailsignup" styleClass="error"/>
+                </p>
+                <p>
+                    <label for="passwordsignup" class="youpasswd" >Пароль </label>
+                    <h:inputSecret id="passwordsignup" value="#{user.password}" required="true" requiredMessage="Password should contain 6 symbols" redisplay="true" placeholder="пр. X8df!90EO">
+                        <f:validator validatorId="validators.register.PasswordValidator"/>
+                    </h:inputSecret>
+                    <h:message for="passwordsignup" styleClass="error"/>
+                </p>
+                <p>
+                    <label for="passwordsignup_confirm" class="youpasswd" >Подтверждение пароля </label>
+                    <h:inputSecret id="passwordsignup_confirm" value="#{user.password}" required="true" requiredMessage="Passwords don't coincide" redisplay="true" placeholder="пр. X8df!90EO"/>
+                </p>
+                <p class="signin button">
+                    <h:commandButton action="#{user.registration()}" value="Регистрация"/>
+                </p>
+                <p class="change_link">
+                    Уже с нами?
+                    <h:link value="Войти" outcome="login" styleClass="to_register"/>
+                </p>
+            </h:form>
+        </div>
+
+    </div>
+</div>
+<!--</section>-->
+</body>
+</html>

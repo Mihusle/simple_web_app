@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<Context>
+    <Resource name="jdbc/polish"
+              auth="Container"
+              description="DB Connection"
+              username="root"
+              password="NaA7315021"
+              driverClassName="com.mysql.jdbc.Driver"
+              url="jdbc:mysql://localhost:3306/polish"
+              maxActive="10"
+              maxIdle="3"
+              maxWait="100"
+              factory="org.apache.tomcat.jdbc.pool.DataSourceFactory"
+              type="javax.sql.DataSource"></Resource>
+</Context>
