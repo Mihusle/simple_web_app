@@ -20,8 +20,12 @@ import java.util.List;
 @SessionScoped
 public class CommentController {
     
+    private static final int COMMENTS_ON_PAGE = 4;
+    
     private List<Comment> comments = new ArrayList<>();
     private boolean editMode = false;
+    private int page = 1;
+    private int commentsNumber;
     
     public CommentController() {
         
@@ -62,11 +66,30 @@ public class CommentController {
     }
     
     public List<Comment> getComments(int itemId) {
-        comments = DBUtils.getCommentsForItem(itemId);
+        commentsNumber = DBUtils.getCommentsNumber(itemId);
+        comments = DBUtils.getCommentsForItem(itemId, page, COMMENTS_ON_PAGE);
         return comments;
     }
     
     public boolean isEditMode() {
         return editMode;
+    }
+    
+    public int getPages() {
+        if (commentsNumber <= COMMENTS_ON_PAGE) {
+            return commentsNumber / COMMENTS_ON_PAGE;
+        }
+        return commentsNumber / COMMENTS_ON_PAGE + 1;
+    }
+    
+    public int getPage() {
+        return page;
+    }
+    
+    public String setPage(int page) {
+        this.page = page;
+        HttpServletRequest request = (HttpServletRequest) FacesContext.getCurrentInstance().getExternalContext().getRequest();
+        int itemId = Integer.parseInt(request.getParameter("item_id"));
+        return "/pages/item.xhtml?item_id=" + itemId +"&faces-redirect=true";
     }
 }

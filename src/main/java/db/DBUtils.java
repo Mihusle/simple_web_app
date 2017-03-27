@@ -50,12 +50,13 @@ public class DBUtils {
         return result;
     }
     
-    public static List<Comment> getCommentsForItem(int itemId) {
+    public static List<Comment> getCommentsForItem(int itemId, int page, int quantity) {
         List<Comment> comments = new ArrayList<>();
+        int from = page * quantity - quantity;
         try (Connection connection = DataBase.getConnection();
             Statement statement = connection.createStatement();
             ResultSet resultSet = statement.executeQuery("SELECT comments.id, user_id, user_name, user_pass, email, comment, date, item_id " +
-                                                        "FROM comments INNER JOIN users WHERE user_id = users.id AND item_id=" + itemId)) {
+                                                        "FROM comments INNER JOIN users WHERE user_id = users.id AND item_id=" + itemId + " LIMIT " + from + ", " + quantity)) {
             while (resultSet.next()) {
                 User user = new User();
                 user.setId(resultSet.getInt("user_id"));
@@ -75,6 +76,18 @@ public class DBUtils {
             Logger.getLogger(DBUtils.class.getName()).log(Level.SEVERE, null, e);
         }
         return comments;
+    }
+    
+    public static int getCommentsNumber(int itemId) {
+        try (Connection connection = DataBase.getConnection();
+             Statement statement = connection.createStatement();
+             ResultSet resultSet = statement.executeQuery("SELECT COUNT(*) AS quantity FROM comments WHERE item_id = " + itemId)) {
+            resultSet.next();
+            return resultSet.getInt("quantity");
+        } catch (SQLException e) {
+            Logger.getLogger(DBUtils.class.getName()).log(Level.SEVERE, null, e);
+        }
+        return 0;
     }
     
     public static void addCommentForItem(Comment comment) {

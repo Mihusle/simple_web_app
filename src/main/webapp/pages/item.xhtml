@@ -36,28 +36,40 @@
                         <span>9999 руб.</span>
                     </div>
                     <div id="feedback">
-                        <c:forEach items="#{commentController.getComments(request.getParameter('item_id'))}" var="comment" varStatus="loop">
-                            <div class="comment">
-                                <span class="user">#{comment.user.name}</span>
-                                <h:outputText value="#{comment.text}" rendered="#{!commentController.editMode}" styleClass="text"/>
-                                <h:form rendered="#{commentController.editMode}">
-                                    <h:inputText value="#{comment.text}"/>
-                                    <h:commandButton rendered="#{commentController.editMode}" action="#{commentController.changeComment(comment)}" value="Save">
-                                        <f:param name="item_id" value="#{request.getParameter('item_id')}"/>
-                                    </h:commandButton>
-                                    <h:commandButton immediate="true" rendered="#{commentController.editMode}" action="#{commentController.switchEditMode}" value="Cancel">
-                                        <f:param name="item_id" value="#{request.getParameter('item_id')}"/>
-                                    </h:commandButton>
-                                </h:form>
-                                <span class="date">#{comment.date.toString()}</span>
-                                <h:form rendered="#{commentController.isCurrentUsersComment(comment)}">
-                                    <h:commandLink rendered="#{!commentController.editMode}" action="#{commentController.switchEditMode}" value="Change comment ">
-                                        <f:param name="item_id" value="#{request.getParameter('item_id')}"/>
-                                    </h:commandLink>
-                                    <h:commandLink rendered="#{!commentController.editMode}" action="#{commentController.deleteComment(comment)}" value="Delete comment"/>
-                                </h:form>
-                            </div>
-                        </c:forEach>
+                        <h:form>
+                            <c:forEach items="#{commentController.getComments(request.getParameter('item_id'))}" var="comment" varStatus="loop">
+                                <div class="comment">
+                                    <span class="user">#{comment.user.name}</span>
+
+                                    <h:outputText value="#{comment.text}" rendered="#{!commentController.editMode}" styleClass="text"/>
+                                    <h:panelGroup rendered="#{commentController.editMode}">
+                                        <h:inputText value="#{comment.text}"/>
+                                        <h:commandButton action="#{commentController.changeComment(comment)}" value="Save">
+                                            <f:param name="item_id" value="#{comment.itemId}"/>
+                                        </h:commandButton>
+                                        <h:commandButton immediate="true" action="#{commentController.switchEditMode}" value="Cancel">
+                                            <f:param name="item_id" value="#{comment.itemId}"/>
+                                        </h:commandButton>
+                                    </h:panelGroup>
+
+                                    <span class="date">#{comment.date}</span>
+
+                                    <h:panelGroup rendered="#{commentController.isCurrentUsersComment(comment)}">
+                                        <h:commandLink rendered="#{!commentController.editMode}" action="#{commentController.switchEditMode}" value="Change comment ">
+                                            <f:param name="item_id" value="#{comment.itemId}"/>
+                                        </h:commandLink>
+                                        <h:commandLink rendered="#{!commentController.editMode}" action="#{commentController.deleteComment(comment)}" value="Delete comment">
+                                            <f:param name="item_id" value="#{comment.itemId}"/>
+                                        </h:commandLink>
+                                    </h:panelGroup>
+                                </div>
+                            </c:forEach>
+                            <c:forEach begin="1" end="#{commentController.pages}" var="i">
+                                <h:commandLink rendered="#{commentController.pages > 1}" action="#{commentController.setPage(i)}" value="#{i} ">
+                                    <f:param name="item_id" value="#{request.getParameter('item_id')}"/>
+                                </h:commandLink>
+                            </c:forEach>
+                        </h:form>
                     </div>
                     <h:form name="additional_comment">
                         <h:inputTextarea name="comment" value="#{comment.text}" id="area" col="70" row="5"/>
