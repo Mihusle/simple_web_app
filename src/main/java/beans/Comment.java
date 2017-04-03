@@ -2,6 +2,7 @@ package beans;
 
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
+import java.io.Serializable;
 import java.sql.Date;
 
 /**
@@ -11,7 +12,7 @@ import java.sql.Date;
  */
 @ManagedBean
 @RequestScoped
-public class Comment {
+public class Comment implements Serializable {
     
     private int id;
     private User user;

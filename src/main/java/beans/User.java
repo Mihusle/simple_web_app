@@ -8,6 +8,7 @@ import javax.faces.bean.SessionScoped;
 import javax.faces.context.FacesContext;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
+import java.io.Serializable;
 import java.util.List;
 import java.util.Objects;
 import java.util.stream.Collectors;
@@ -17,7 +18,7 @@ import java.util.stream.Collectors;
  */
 @ManagedBean
 @SessionScoped
-public class User {
+public class User implements Serializable {
     
     private int id;
     private String name;
@@ -65,7 +66,6 @@ public class User {
         return "/pages/register.xhtml?faces-redirect=true";
     }
     
-    /*Certainly I must rewrite this method more effectively. But later.*/
     private void initUser() {
         List<User> users = DBUtils.getAllUsers().stream()
                 .filter(user -> user.getName().equals(name))

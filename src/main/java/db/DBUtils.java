@@ -123,4 +123,26 @@ public class DBUtils {
             Logger.getLogger(DBUtils.class.getName()).log(Level.SEVERE, null, e);
         }
     }
+    
+    public static byte[] getImage(int id, int itemId) {
+        byte[] image = null;
+        ResultSet resultSet = null;
+        try (Connection connection = DataBase.getConnection();
+             PreparedStatement statement = connection.prepareStatement("SELECT content FROM images WHERE id = ? AND item_id = ?")) {
+            statement.setInt(1, id);
+            statement.setInt(2, itemId);
+            resultSet = statement.executeQuery();
+            resultSet.next();
+            image = resultSet.getBytes("content");
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                if (resultSet != null) resultSet.close();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+        }
+        return image;
+    }
 }

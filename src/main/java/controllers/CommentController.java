@@ -8,6 +8,7 @@ import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
 import javax.faces.context.FacesContext;
 import javax.servlet.http.HttpServletRequest;
+import java.io.Serializable;
 import java.sql.Date;
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -18,7 +19,7 @@ import java.util.List;
  */
 @ManagedBean
 @SessionScoped
-public class CommentController {
+public class CommentController implements Serializable {
     
     private static final int COMMENTS_ON_PAGE = 4;
     
@@ -42,6 +43,7 @@ public class CommentController {
         return "/pages/item.xhtml?item_id=" + itemId +"&faces-redirect=true";
     }
     
+    /*Doesn't work. Every time gets old value of comment without changes.*/
     public String changeComment(Comment comment) {
         DBUtils.changeCommentForItem(comment);
         return switchEditMode();
