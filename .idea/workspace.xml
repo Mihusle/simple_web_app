@@ -2,24 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1946e216-21f7-4a54-84a9-658eb17d8281" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_primefaces_6_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/beans/GraphicImage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/beans/ImagesView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/pic1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/pic2.jpg" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/beans/GraphicImage.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/beans/Comment.class" afterPath="$PROJECT_DIR$/target/classes/beans/Comment.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/beans/User.class" afterPath="$PROJECT_DIR$/target/classes/beans/User.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/controllers/CommentController.class" afterPath="$PROJECT_DIR$/target/classes/controllers/CommentController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/controllers/LoginController.class" afterPath="$PROJECT_DIR$/target/classes/controllers/LoginController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/db/DBUtils.class" afterPath="$PROJECT_DIR$/target/classes/db/DBUtils.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/polish.war" afterPath="$PROJECT_DIR$/target/polish.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/polish/WEB-INF/classes/beans/Comment.class" afterPath="$PROJECT_DIR$/target/polish/WEB-INF/classes/beans/Comment.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/polish/WEB-INF/classes/beans/User.class" afterPath="$PROJECT_DIR$/target/polish/WEB-INF/classes/beans/User.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/polish/WEB-INF/classes/controllers/CommentController.class" afterPath="$PROJECT_DIR$/target/polish/WEB-INF/classes/controllers/CommentController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/polish/WEB-INF/classes/controllers/LoginController.class" afterPath="$PROJECT_DIR$/target/polish/WEB-INF/classes/controllers/LoginController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/polish/WEB-INF/classes/db/DBUtils.class" afterPath="$PROJECT_DIR$/target/polish/WEB-INF/classes/db/DBUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Polish_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Polish_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Polish.iml" afterPath="$PROJECT_DIR$/Polish.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/beans/Comment.java" afterPath="$PROJECT_DIR$/src/main/java/beans/Comment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/beans/User.java" afterPath="$PROJECT_DIR$/src/main/java/beans/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/controllers/CommentController.java" afterPath="$PROJECT_DIR$/src/main/java/controllers/CommentController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/controllers/LoginController.java" afterPath="$PROJECT_DIR$/src/main/java/controllers/LoginController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/beans/ImagesView.java" afterPath="$PROJECT_DIR$/src/main/java/beans/ImagesView.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/db/DBUtils.java" afterPath="$PROJECT_DIR$/src/main/java/db/DBUtils.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/item.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/pages/item.xhtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
@@ -56,46 +54,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DBUtils.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DBUtils.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/db/DBUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="135" column="49" selection-start-line="135" selection-start-column="49" selection-end-line="135" selection-end-column="49" />
+            <state relative-caret-position="384">
+              <caret line="133" column="38" selection-start-line="133" selection-start-column="38" selection-end-line="133" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1491214745687" expanded="true" signature="539:588" ph="SELECT * FRO... users" />
-                <marker date="1491214745687" expanded="true" signature="1366:1428" ph="INSERT INTO users... " />
-                <marker date="1491214745687" expanded="true" signature="1509:1563" ph="INSERT INTO user_roles... " />
-                <marker date="1491214745687" expanded="true" signature="1509:1571" ph="INSERT INTO user_roles... " />
-                <marker date="1491214745687" expanded="true" signature="2352:2562" ph="SELECT comme... " />
-                <marker date="1491214745687" expanded="true" signature="2352:2582" ph="SELECT comme... " />
-                <marker date="1491214745687" expanded="true" signature="2352:2583" ph="SELECT comme... " />
-                <marker date="1491214745687" expanded="true" signature="2352:2596" ph="SELECT comme... " />
-                <marker date="1491214745687" expanded="true" signature="2352:2597" ph="SELECT comme... " />
-                <marker date="1491214745687" expanded="true" signature="3749:3806" ph="SELECT COUNT... comments" />
-                <marker date="1491214745687" expanded="true" signature="3749:3807" ph="SELECT COUNT... comments" />
-                <marker date="1491214745687" expanded="true" signature="4252:4324" ph="INSERT INTO comments... " />
-                <marker date="1491214745687" expanded="true" signature="4927:4956" ph="UPDATE comme... " />
-                <marker date="1491214745687" expanded="true" signature="4927:4958" ph="UPDATE comme... " />
-                <marker date="1491214745687" expanded="true" signature="4927:4971" ph="UPDATE comme... " />
-                <marker date="1491214745687" expanded="true" signature="5408:5439" ph="DELETE FROM " />
-                <marker date="1491214745687" expanded="true" signature="5408:5440" ph="DELETE FROM " />
-                <marker date="1491214745687" expanded="true" signature="5408:5441" ph="DELETE FROM " />
-                <marker date="1491214745687" expanded="true" signature="5408:5444" ph="DELETE FROM " />
-                <marker date="1491214745687" expanded="true" signature="5930:5983" ph="SELECT conte... images" />
-                <marker date="1491214745687" expanded="true" signature="5930:5985" ph="SELECT conte... images" />
+                <marker date="1491730356392" expanded="true" signature="539:588" ph="SELECT * FRO... users" />
+                <marker date="1491730356392" expanded="true" signature="1366:1428" ph="INSERT INTO users... " />
+                <marker date="1491730356392" expanded="true" signature="1509:1563" ph="INSERT INTO user_roles... " />
+                <marker date="1491730356392" expanded="true" signature="1509:1571" ph="INSERT INTO user_roles... " />
+                <marker date="1491730356392" expanded="true" signature="2352:2562" ph="SELECT comme... " />
+                <marker date="1491730356392" expanded="true" signature="2352:2582" ph="SELECT comme... " />
+                <marker date="1491730356392" expanded="true" signature="2352:2583" ph="SELECT comme... " />
+                <marker date="1491730356392" expanded="true" signature="2352:2596" ph="SELECT comme... " />
+                <marker date="1491730356392" expanded="true" signature="2352:2597" ph="SELECT comme... " />
+                <marker date="1491730356392" expanded="true" signature="3749:3806" ph="SELECT COUNT... comments" />
+                <marker date="1491730356392" expanded="true" signature="3749:3807" ph="SELECT COUNT... comments" />
+                <marker date="1491730356392" expanded="true" signature="4252:4324" ph="INSERT INTO comments... " />
+                <marker date="1491730356392" expanded="true" signature="4927:4956" ph="UPDATE comme... " />
+                <marker date="1491730356392" expanded="true" signature="4927:4958" ph="UPDATE comme... " />
+                <marker date="1491730356392" expanded="true" signature="4927:4971" ph="UPDATE comme... " />
+                <marker date="1491730356392" expanded="true" signature="5408:5439" ph="DELETE FROM " />
+                <marker date="1491730356392" expanded="true" signature="5408:5440" ph="DELETE FROM " />
+                <marker date="1491730356392" expanded="true" signature="5408:5441" ph="DELETE FROM " />
+                <marker date="1491730356392" expanded="true" signature="5408:5444" ph="DELETE FROM " />
+                <marker date="1491730356392" expanded="true" signature="5957:6004" ph="SELECT image... images" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="item.xhtml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="item.xhtml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/item.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="28" selection-end-column="37" />
+            <state relative-caret-position="289">
+              <caret line="27" column="74" selection-start-line="27" selection-start-column="74" selection-end-line="27" selection-end-column="74" />
               <folding>
-                <element signature="n#p:galleria#0;n#div#1;n#div#0;n#div#0;n#ui:define#0;n#ui:composition#0;n#h:body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#4;n#div#0;n#div#0;n#ui:define#0;n#ui:composition#0;n#h:body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#h:form#0;n#div#4;n#div#0;n#div#0;n#ui:define#0;n#ui:composition#0;n#h:body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#c:forEach#0;n#h:form#0;n#div#4;n#div#0;n#div#0;n#ui:define#0;n#ui:composition#0;n#h:body#0;n#html#0;n#!!top" expanded="true" />
@@ -115,22 +111,12 @@
       <file leaf-file-name="ImagesView.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/beans/ImagesView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+            <state relative-caret-position="391">
+              <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GraphicImage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/beans/GraphicImage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="27" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#686#687#0" expanded="true" />
+                <element signature="e#715#716#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -199,14 +185,14 @@
         <option value="$PROJECT_DIR$/src/main/webapp/pages/register.xhtml" />
         <option value="$PROJECT_DIR$/src/main/java/CommentServlet.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/pages/item.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/java/db/DBUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/beans/Comment.java" />
         <option value="$PROJECT_DIR$/src/main/java/beans/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/controllers/CommentController.java" />
         <option value="$PROJECT_DIR$/src/main/java/controllers/LoginController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/beans/ImagesView.java" />
         <option value="$PROJECT_DIR$/src/main/java/beans/GraphicImage.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/item.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/java/beans/ImagesView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/db/DBUtils.java" />
       </list>
     </option>
   </component>
@@ -270,6 +256,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -333,62 +320,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Polish" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Polish" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Polish" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Polish" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -486,7 +417,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -503,15 +433,15 @@
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Влад\IdeaProjects\Polish\src\main\webapp\js" />
-      <recent name="C:\Users\Влад\IdeaProjects\Polish\src\main\webapp" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Влад\IdeaProjects\Polish\src\main\webapp\resources\images" />
       <recent name="C:\Users\Влад\IdeaProjects\Polish\src\main\webapp\resources\css" />
       <recent name="C:\Users\Влад\IdeaProjects\Polish\src\main\webapp\resources\js" />
       <recent name="C:\Users\Влад\IdeaProjects\Polish\src\main\webapp\resources" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Влад\IdeaProjects\Polish\src\main\webapp\js" />
+      <recent name="C:\Users\Влад\IdeaProjects\Polish\src\main\webapp" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.index.xhtml">
@@ -1148,7 +1078,8 @@
       <workItem from="1490605083105" duration="6693000" />
       <workItem from="1490815611448" duration="30000" />
       <workItem from="1491127085091" duration="8334000" />
-      <workItem from="1491213160496" duration="4493000" />
+      <workItem from="1491213160496" duration="4669000" />
+      <workItem from="1491727520581" duration="2962000" />
     </task>
     <task id="LOCAL-00001" summary="- Added pager for comments">
       <created>1490611779921</created>
@@ -1157,15 +1088,22 @@
       <option name="project" value="LOCAL" />
       <updated>1490611779921</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="- Added PrimeFaces dependency&#10;- Added PrimeFaces galleria for displaying images on every item page&#10;- Added beans for displaying images from DB&#10;- Some small edits in old beans">
+      <created>1491217840735</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1491217840735</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96719000" />
+    <option name="totallyTimeSpent" value="99857000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1181,11 +1119,11 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39910814" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1213,11 +1151,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="- Added pager for comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Added pager for comments" />
+    <MESSAGE value="- Added PrimeFaces dependency&#10;- Added PrimeFaces galleria for displaying images on every item page&#10;- Added beans for displaying images from DB&#10;- Some small edits in old beans" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Added PrimeFaces dependency&#10;- Added PrimeFaces galleria for displaying images on every item page&#10;- Added beans for displaying images from DB&#10;- Some small edits in old beans" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="19" />
+      <option name="time" value="25" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1350,13 +1289,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml">
+      <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="50" column="32" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
         </state>
-      </provider>
-      <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/main_page.css">
@@ -1454,14 +1393,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/ShowImage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/ShowImage.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/beans/Comment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -1494,12 +1426,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/beans/GraphicImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/beans/ImagesView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#686#687#0" expanded="true" />
+            <element signature="e#715#716#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/db/DBUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="133" column="38" selection-start-line="133" selection-start-column="38" selection-end-line="133" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1491730356392" expanded="true" signature="539:588" ph="SELECT * FRO... users" />
+            <marker date="1491730356392" expanded="true" signature="1366:1428" ph="INSERT INTO users... " />
+            <marker date="1491730356392" expanded="true" signature="1509:1563" ph="INSERT INTO user_roles... " />
+            <marker date="1491730356392" expanded="true" signature="1509:1571" ph="INSERT INTO user_roles... " />
+            <marker date="1491730356392" expanded="true" signature="2352:2562" ph="SELECT comme... " />
+            <marker date="1491730356392" expanded="true" signature="2352:2582" ph="SELECT comme... " />
+            <marker date="1491730356392" expanded="true" signature="2352:2583" ph="SELECT comme... " />
+            <marker date="1491730356392" expanded="true" signature="2352:2596" ph="SELECT comme... " />
+            <marker date="1491730356392" expanded="true" signature="2352:2597" ph="SELECT comme... " />
+            <marker date="1491730356392" expanded="true" signature="3749:3806" ph="SELECT COUNT... comments" />
+            <marker date="1491730356392" expanded="true" signature="3749:3807" ph="SELECT COUNT... comments" />
+            <marker date="1491730356392" expanded="true" signature="4252:4324" ph="INSERT INTO comments... " />
+            <marker date="1491730356392" expanded="true" signature="4927:4956" ph="UPDATE comme... " />
+            <marker date="1491730356392" expanded="true" signature="4927:4958" ph="UPDATE comme... " />
+            <marker date="1491730356392" expanded="true" signature="4927:4971" ph="UPDATE comme... " />
+            <marker date="1491730356392" expanded="true" signature="5408:5439" ph="DELETE FROM " />
+            <marker date="1491730356392" expanded="true" signature="5408:5440" ph="DELETE FROM " />
+            <marker date="1491730356392" expanded="true" signature="5408:5441" ph="DELETE FROM " />
+            <marker date="1491730356392" expanded="true" signature="5408:5444" ph="DELETE FROM " />
+            <marker date="1491730356392" expanded="true" signature="5957:6004" ph="SELECT image... images" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/item.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="28" selection-end-column="37" />
+        <state relative-caret-position="289">
+          <caret line="27" column="74" selection-start-line="27" selection-start-column="74" selection-end-line="27" selection-end-column="74" />
           <folding>
-            <element signature="n#p:galleria#0;n#div#1;n#div#0;n#div#0;n#ui:define#0;n#ui:composition#0;n#h:body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#4;n#div#0;n#div#0;n#ui:define#0;n#ui:composition#0;n#h:body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#h:form#0;n#div#4;n#div#0;n#div#0;n#ui:define#0;n#ui:composition#0;n#h:body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#c:forEach#0;n#h:form#0;n#div#4;n#div#0;n#div#0;n#ui:define#0;n#ui:composition#0;n#h:body#0;n#html#0;n#!!top" expanded="true" />
@@ -1511,57 +1492,6 @@
             <element signature="n#c:forEach#1;n#h:form#0;n#div#4;n#div#0;n#div#0;n#ui:define#0;n#ui:composition#0;n#h:body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#h:commandLink#0;n#c:forEach#1;n#h:form#0;n#div#4;n#div#0;n#div#0;n#ui:define#0;n#ui:composition#0;n#h:body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#h:form#0;n#div#0;n#div#0;n#ui:define#0;n#ui:composition#0;n#h:body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/beans/ImagesView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/beans/GraphicImage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="27" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/db/DBUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="135" column="49" selection-start-line="135" selection-start-column="49" selection-end-line="135" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1491214745687" expanded="true" signature="539:588" ph="SELECT * FRO... users" />
-            <marker date="1491214745687" expanded="true" signature="1366:1428" ph="INSERT INTO users... " />
-            <marker date="1491214745687" expanded="true" signature="1509:1563" ph="INSERT INTO user_roles... " />
-            <marker date="1491214745687" expanded="true" signature="1509:1571" ph="INSERT INTO user_roles... " />
-            <marker date="1491214745687" expanded="true" signature="2352:2562" ph="SELECT comme... " />
-            <marker date="1491214745687" expanded="true" signature="2352:2582" ph="SELECT comme... " />
-            <marker date="1491214745687" expanded="true" signature="2352:2583" ph="SELECT comme... " />
-            <marker date="1491214745687" expanded="true" signature="2352:2596" ph="SELECT comme... " />
-            <marker date="1491214745687" expanded="true" signature="2352:2597" ph="SELECT comme... " />
-            <marker date="1491214745687" expanded="true" signature="3749:3806" ph="SELECT COUNT... comments" />
-            <marker date="1491214745687" expanded="true" signature="3749:3807" ph="SELECT COUNT... comments" />
-            <marker date="1491214745687" expanded="true" signature="4252:4324" ph="INSERT INTO comments... " />
-            <marker date="1491214745687" expanded="true" signature="4927:4956" ph="UPDATE comme... " />
-            <marker date="1491214745687" expanded="true" signature="4927:4958" ph="UPDATE comme... " />
-            <marker date="1491214745687" expanded="true" signature="4927:4971" ph="UPDATE comme... " />
-            <marker date="1491214745687" expanded="true" signature="5408:5439" ph="DELETE FROM " />
-            <marker date="1491214745687" expanded="true" signature="5408:5440" ph="DELETE FROM " />
-            <marker date="1491214745687" expanded="true" signature="5408:5441" ph="DELETE FROM " />
-            <marker date="1491214745687" expanded="true" signature="5408:5444" ph="DELETE FROM " />
-            <marker date="1491214745687" expanded="true" signature="5930:5983" ph="SELECT conte... images" />
-            <marker date="1491214745687" expanded="true" signature="5930:5985" ph="SELECT conte... images" />
           </folding>
         </state>
       </provider>
