@@ -29,6 +29,7 @@ public class User implements Serializable {
         
     }
     
+    //I should carry over this method to a controller.
     public String login() {
         try {
             HttpServletRequest request = (HttpServletRequest) FacesContext.getCurrentInstance().getExternalContext().getRequest();
@@ -45,6 +46,7 @@ public class User implements Serializable {
         return "/pages/login.xhtml";
     }
     
+    //I should carry over this method to a controller.
     public String registration() {
         if (name != null) {
             int createdUsers = DBUtils.addUser(name, password, email);

@@ -33,6 +33,25 @@ public class DBUtils {
         return users;
     }
     
+    public static User getUserByName(String name) {
+        User user = null;
+        ResultSet resultSet;
+        try (Connection connection = DataBase.getConnection();
+             PreparedStatement statement = connection.prepareStatement("SELECT id, user_name, user_pass, email FROM users WHERE user_name = ?")) {
+            statement.setString(1, name);
+            resultSet = statement.executeQuery();
+            resultSet.next();
+            user = new User();
+            user.setId(resultSet.getInt("id"));
+            user.setName(resultSet.getString("user_name"));
+            user.setPassword(resultSet.getString("user_pass"));
+            user.setEmail(resultSet.getString("email"));
+        } catch (SQLException e) {
+            Logger.getLogger(DBUtils.class.getName()).log(Level.SEVERE, null, e);
+        }
+        return user;
+    }
+    
     public static int addUser(String name, String password, String email) {
         int result = 0;
         try (Connection connection = DataBase.getConnection();
@@ -110,7 +129,7 @@ public class DBUtils {
             statement.setInt(2, comment.getId());
             statement.executeUpdate();
         } catch (SQLException e) {
-            e.printStackTrace();
+            Logger.getLogger(DBUtils.class.getName()).log(Level.SEVERE, null, e);
         }
     }
     
@@ -135,11 +154,44 @@ public class DBUtils {
                 imageNames.add(resultSet.getString("image_name"));
             }
         } catch (SQLException e) {
-            e.printStackTrace();
+            Logger.getLogger(DBUtils.class.getName()).log(Level.SEVERE, null, e);
         } finally {
             closeResultSet(resultSet);
         }
         return imageNames;
+    }
+    
+    public static void updateUserName(int userId, String newName) {
+        try (Connection connection = DataBase.getConnection();
+             PreparedStatement statement = connection.prepareStatement("UPDATE users SET user_name = ? WHERE id = ?")) {
+            statement.setString(1, newName);
+            statement.setInt(2, userId);
+            statement.executeUpdate();
+        } catch (SQLException e) {
+            Logger.getLogger(DBUtils.class.getName()).log(Level.SEVERE, null, e);
+        }
+    }
+    
+    public static void updateUserEmail(int userId, String newEmail) {
+        try (Connection connection = DataBase.getConnection();
+             PreparedStatement statement = connection.prepareStatement("UPDATE users SET email = ? WHERE id = ?")) {
+            statement.setString(1, newEmail);
+            statement.setInt(2, userId);
+            statement.executeUpdate();
+        } catch (SQLException e) {
+            Logger.getLogger(DBUtils.class.getName()).log(Level.SEVERE, null, e);
+        }
+    }
+    
+    public static void updateUserPassword(int userId, String newPassword) {
+        try (Connection connection = DataBase.getConnection();
+             PreparedStatement statement = connection.prepareStatement("UPDATE users SET user_pass = ? WHERE id = ?")) {
+            statement.setString(1, newPassword);
+            statement.setInt(2, userId);
+            statement.executeUpdate();
+        } catch (SQLException e) {
+            Logger.getLogger(DBUtils.class.getName()).log(Level.SEVERE, null, e);
+        }
     }
     
     private static void closeResultSet(ResultSet resultSet) {

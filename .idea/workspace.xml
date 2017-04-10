@@ -2,28 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1946e216-21f7-4a54-84a9-658eb17d8281" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/pic1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/pic2.jpg" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/beans/GraphicImage.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/beans/Comment.class" afterPath="$PROJECT_DIR$/target/classes/beans/Comment.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/validators/update/NewPasswordValidator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/validators/update/OldPasswordValidator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/pages/profile.xhtml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/controllers/LoginController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/polish/WEB-INF/classes/controllers/LoginController.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/controllers/LoginController.java" afterPath="$PROJECT_DIR$/src/main/java/controllers/UserController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/beans/User.class" afterPath="$PROJECT_DIR$/target/classes/beans/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/controllers/CommentController.class" afterPath="$PROJECT_DIR$/target/classes/controllers/CommentController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/controllers/LoginController.class" afterPath="$PROJECT_DIR$/target/classes/controllers/LoginController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/db/DBUtils.class" afterPath="$PROJECT_DIR$/target/classes/db/DBUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/validators/login/NameValidator.class" afterPath="$PROJECT_DIR$/target/classes/validators/login/NameValidator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/validators/login/PasswordValidator.class" afterPath="$PROJECT_DIR$/target/classes/validators/login/PasswordValidator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/validators/register/EmailValidator.class" afterPath="$PROJECT_DIR$/target/classes/validators/register/EmailValidator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/validators/register/NameValidator.class" afterPath="$PROJECT_DIR$/target/classes/validators/register/NameValidator.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/polish.war" afterPath="$PROJECT_DIR$/target/polish.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/polish/WEB-INF/classes/beans/Comment.class" afterPath="$PROJECT_DIR$/target/polish/WEB-INF/classes/beans/Comment.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/polish/WEB-INF/classes/beans/User.class" afterPath="$PROJECT_DIR$/target/polish/WEB-INF/classes/beans/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/polish/WEB-INF/classes/controllers/CommentController.class" afterPath="$PROJECT_DIR$/target/polish/WEB-INF/classes/controllers/CommentController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/polish/WEB-INF/classes/controllers/LoginController.class" afterPath="$PROJECT_DIR$/target/polish/WEB-INF/classes/controllers/LoginController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/polish/WEB-INF/classes/db/DBUtils.class" afterPath="$PROJECT_DIR$/target/polish/WEB-INF/classes/db/DBUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/polish/WEB-INF/classes/validators/login/NameValidator.class" afterPath="$PROJECT_DIR$/target/polish/WEB-INF/classes/validators/login/NameValidator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/polish/WEB-INF/classes/validators/login/PasswordValidator.class" afterPath="$PROJECT_DIR$/target/polish/WEB-INF/classes/validators/login/PasswordValidator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/polish/WEB-INF/classes/validators/register/EmailValidator.class" afterPath="$PROJECT_DIR$/target/polish/WEB-INF/classes/validators/register/EmailValidator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/polish/WEB-INF/classes/validators/register/NameValidator.class" afterPath="$PROJECT_DIR$/target/polish/WEB-INF/classes/validators/register/NameValidator.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/beans/ImagesView.java" afterPath="$PROJECT_DIR$/src/main/java/beans/ImagesView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/beans/User.java" afterPath="$PROJECT_DIR$/src/main/java/beans/User.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/db/DBUtils.java" afterPath="$PROJECT_DIR$/src/main/java/db/DBUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/validators/login/NameValidator.java" afterPath="$PROJECT_DIR$/src/main/java/validators/login/NameValidator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/validators/login/PasswordValidator.java" afterPath="$PROJECT_DIR$/src/main/java/validators/login/PasswordValidator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/validators/register/EmailValidator.java" afterPath="$PROJECT_DIR$/src/main/java/validators/register/EmailValidator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/validators/register/NameValidator.java" afterPath="$PROJECT_DIR$/src/main/java/validators/register/NameValidator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/item.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/pages/item.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templates/header.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/templates/header.xhtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/polish/pages/item.xhtml" afterPath="$PROJECT_DIR$/target/polish/pages/item.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/polish/templates/header.xhtml" afterPath="$PROJECT_DIR$/target/polish/templates/header.xhtml" />
     </list>
     <ignored path="Polish.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -54,69 +66,101 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="profile.xhtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/profile.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="469">
+              <caret line="52" column="103" selection-start-line="52" selection-start-column="103" selection-end-line="52" selection-end-column="103" />
+              <folding>
+                <element signature="n#h:head#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#p:inplace#0;n#h:panelGrid#0;n#h:form#0;n#div#0;n#div#0;n#ui:define#0;n#ui:composition#0;n#h:body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#p:inplace#1;n#h:panelGrid#0;n#h:form#0;n#div#0;n#div#0;n#ui:define#0;n#ui:composition#0;n#h:body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#p:password#0;n#h:panelGrid#0;n#h:panelGrid#0;n#h:form#0;n#div#0;n#div#0;n#ui:define#0;n#ui:composition#0;n#h:body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NewPasswordValidator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/validators/update/NewPasswordValidator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="97" selection-start-line="18" selection-start-column="97" selection-end-line="18" selection-end-column="97" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.xhtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/templates/header.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="51" column="27" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
+              <folding>
+                <element signature="n#h:form#0;n#div#0;n#h:outputLabel#1;n#div#0;n#ui:composition#0;n#h:body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/beans/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="103" column="5" selection-start-line="103" selection-start-column="5" selection-end-line="103" selection-end-column="5" />
+              <folding>
+                <element signature="e#3373#3374#0" expanded="true" />
+                <element signature="e#3405#3406#0" expanded="true" />
+                <element signature="e#3515#3516#0" expanded="true" />
+                <element signature="e#3549#3550#0" expanded="true" />
+                <element signature="e#3671#3672#0" expanded="true" />
+                <element signature="e#3711#3712#0" expanded="true" />
+                <element signature="e#3741#3742#0" expanded="true" />
+                <element signature="e#3766#3767#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="DBUtils.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/db/DBUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="133" column="38" selection-start-line="133" selection-start-column="38" selection-end-line="133" selection-end-column="38" />
+            <state relative-caret-position="496">
+              <caret line="185" column="33" selection-start-line="185" selection-start-column="33" selection-end-line="185" selection-end-column="33" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1491730356392" expanded="true" signature="539:588" ph="SELECT * FRO... users" />
-                <marker date="1491730356392" expanded="true" signature="1366:1428" ph="INSERT INTO users... " />
-                <marker date="1491730356392" expanded="true" signature="1509:1563" ph="INSERT INTO user_roles... " />
-                <marker date="1491730356392" expanded="true" signature="1509:1571" ph="INSERT INTO user_roles... " />
-                <marker date="1491730356392" expanded="true" signature="2352:2562" ph="SELECT comme... " />
-                <marker date="1491730356392" expanded="true" signature="2352:2582" ph="SELECT comme... " />
-                <marker date="1491730356392" expanded="true" signature="2352:2583" ph="SELECT comme... " />
-                <marker date="1491730356392" expanded="true" signature="2352:2596" ph="SELECT comme... " />
-                <marker date="1491730356392" expanded="true" signature="2352:2597" ph="SELECT comme... " />
-                <marker date="1491730356392" expanded="true" signature="3749:3806" ph="SELECT COUNT... comments" />
-                <marker date="1491730356392" expanded="true" signature="3749:3807" ph="SELECT COUNT... comments" />
-                <marker date="1491730356392" expanded="true" signature="4252:4324" ph="INSERT INTO comments... " />
-                <marker date="1491730356392" expanded="true" signature="4927:4956" ph="UPDATE comme... " />
-                <marker date="1491730356392" expanded="true" signature="4927:4958" ph="UPDATE comme... " />
-                <marker date="1491730356392" expanded="true" signature="4927:4971" ph="UPDATE comme... " />
-                <marker date="1491730356392" expanded="true" signature="5408:5439" ph="DELETE FROM " />
-                <marker date="1491730356392" expanded="true" signature="5408:5440" ph="DELETE FROM " />
-                <marker date="1491730356392" expanded="true" signature="5408:5441" ph="DELETE FROM " />
-                <marker date="1491730356392" expanded="true" signature="5408:5444" ph="DELETE FROM " />
-                <marker date="1491730356392" expanded="true" signature="5957:6004" ph="SELECT image... images" />
+                <marker date="1491833639101" expanded="true" signature="539:588" ph="SELECT id, u... users" />
+                <marker date="1491833639101" expanded="true" signature="1368:1437" ph="SELECT id, u... users" />
+                <marker date="1491833639101" expanded="true" signature="2224:2286" ph="INSERT INTO users... " />
+                <marker date="1491833639101" expanded="true" signature="2367:2429" ph="INSERT INTO user_roles... " />
+                <marker date="1491833639101" expanded="true" signature="3210:3455" ph="SELECT comme... " />
+                <marker date="1491833639101" expanded="true" signature="4607:4665" ph="SELECT COUNT... comments" />
+                <marker date="1491833639101" expanded="true" signature="5110:5182" ph="INSERT INTO comments... " />
+                <marker date="1491833639101" expanded="true" signature="5785:5829" ph="UPDATE comme... " />
+                <marker date="1491833639101" expanded="true" signature="6315:6348" ph="DELETE FROM " />
+                <marker date="1491833639101" expanded="true" signature="6864:6911" ph="SELECT image... images" />
+                <marker date="1491833639101" expanded="true" signature="7555:7598" ph="UPDATE users... " />
+                <marker date="1491833639101" expanded="true" signature="8072:8111" ph="UPDATE users... " />
+                <marker date="1491833639101" expanded="true" signature="8592:8635" ph="UPDATE users... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="item.xhtml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/item.xhtml">
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controllers/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="27" column="74" selection-start-line="27" selection-start-column="74" selection-end-line="27" selection-end-column="74" />
-              <folding>
-                <element signature="n#div#4;n#div#0;n#div#0;n#ui:define#0;n#ui:composition#0;n#h:body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#h:form#0;n#div#4;n#div#0;n#div#0;n#ui:define#0;n#ui:composition#0;n#h:body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#c:forEach#0;n#h:form#0;n#div#4;n#div#0;n#div#0;n#ui:define#0;n#ui:composition#0;n#h:body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#0;n#c:forEach#0;n#h:form#0;n#div#4;n#div#0;n#div#0;n#ui:define#0;n#ui:composition#0;n#h:body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#h:panelGroup#0;n#div#0;n#c:forEach#0;n#h:form#0;n#div#4;n#div#0;n#div#0;n#ui:define#0;n#ui:composition#0;n#h:body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#h:inputTextarea#0;n#h:panelGroup#0;n#div#0;n#c:forEach#0;n#h:form#0;n#div#4;n#div#0;n#div#0;n#ui:define#0;n#ui:composition#0;n#h:body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#h:commandButton#0;n#h:panelGroup#0;n#div#0;n#c:forEach#0;n#h:form#0;n#div#4;n#div#0;n#div#0;n#ui:define#0;n#ui:composition#0;n#h:body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#h:commandButton#1;n#h:panelGroup#0;n#div#0;n#c:forEach#0;n#h:form#0;n#div#4;n#div#0;n#div#0;n#ui:define#0;n#ui:composition#0;n#h:body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#c:forEach#1;n#h:form#0;n#div#4;n#div#0;n#div#0;n#ui:define#0;n#ui:composition#0;n#h:body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#h:commandLink#0;n#c:forEach#1;n#h:form#0;n#div#4;n#div#0;n#div#0;n#ui:define#0;n#ui:composition#0;n#h:body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#h:form#0;n#div#0;n#div#0;n#ui:define#0;n#ui:composition#0;n#h:body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ImagesView.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/beans/ImagesView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+            <state relative-caret-position="163">
+              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#686#687#0" expanded="true" />
-                <element signature="e#715#716#0" expanded="true" />
+                <element signature="e#833#834#0" expanded="true" />
+                <element signature="e#870#871#0" expanded="true" />
+                <element signature="e#1044#1045#0" expanded="true" />
+                <element signature="e#1082#1083#0" expanded="true" />
+                <element signature="e#1265#1266#0" expanded="true" />
+                <element signature="e#1306#1307#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -170,29 +214,33 @@
         <option value="$PROJECT_DIR$/src/main/java/beans/Comments.java" />
         <option value="$PROJECT_DIR$/src/main/java/validators/NameValidator.java" />
         <option value="$PROJECT_DIR$/src/main/java/validators/PasswordValidator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/validators/register/EmailValidator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/validators/register/NameValidator.java" />
         <option value="$PROJECT_DIR$/src/main/java/validators/register/PasswordValidator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/validators/login/NameValidator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/validators/login/PasswordValidator.java" />
         <option value="$PROJECT_DIR$/src/main/java/db/DataBase.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/css/style_login.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/login.xhtml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/templates/header.xhtml" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/css/style.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/register.xhtml" />
         <option value="$PROJECT_DIR$/src/main/java/CommentServlet.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/beans/Comment.java" />
-        <option value="$PROJECT_DIR$/src/main/java/beans/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/controllers/CommentController.java" />
         <option value="$PROJECT_DIR$/src/main/java/controllers/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/java/beans/GraphicImage.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/item.xhtml" />
         <option value="$PROJECT_DIR$/src/main/java/beans/ImagesView.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/templates/header.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/java/validators/login/PasswordValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/validators/login/NameValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/validators/update/OldPasswordValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/validators/register/NameValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/validators/register/EmailValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/beans/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/db/DBUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/validators/update/NewPasswordValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/profile.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/java/controllers/UserController.java" />
       </list>
     </option>
   </component>
@@ -255,8 +303,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -314,12 +361,34 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
+              <option name="myItemId" value="Polish" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Polish" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="validators" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="update" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -338,6 +407,14 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="validators" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -417,7 +494,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -429,7 +507,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files (x86)\nodejs\node.exe" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/JsfLibrary_10" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
   </component>
   <component name="RecentsManager">
@@ -512,12 +590,7 @@
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
       </ConfigurationWrapper>
-      <method>
-        <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="Polish:war" />
-        </option>
-      </method>
+      <method />
     </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.5" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -1079,7 +1152,9 @@
       <workItem from="1490815611448" duration="30000" />
       <workItem from="1491127085091" duration="8334000" />
       <workItem from="1491213160496" duration="4669000" />
-      <workItem from="1491727520581" duration="2962000" />
+      <workItem from="1491727520581" duration="5495000" />
+      <workItem from="1491745497053" duration="106000" />
+      <workItem from="1491825530694" duration="8058000" />
     </task>
     <task id="LOCAL-00001" summary="- Added pager for comments">
       <created>1490611779921</created>
@@ -1095,15 +1170,22 @@
       <option name="project" value="LOCAL" />
       <updated>1491217840735</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="- Galleria was rewritten:&#10;  * In db only image names are stored">
+      <created>1491730774101</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1491730774101</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99857000" />
+    <option name="totallyTimeSpent" value="110554000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1119,11 +1201,12 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39910814" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1135,7 +1218,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1152,11 +1234,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="- Added pager for comments" />
     <MESSAGE value="- Added PrimeFaces dependency&#10;- Added PrimeFaces galleria for displaying images on every item page&#10;- Added beans for displaying images from DB&#10;- Some small edits in old beans" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Added PrimeFaces dependency&#10;- Added PrimeFaces galleria for displaying images on every item page&#10;- Added beans for displaying images from DB&#10;- Some small edits in old beans" />
+    <MESSAGE value="- Galleria was rewritten:&#10;  * In db only image names are stored" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Galleria was rewritten:&#10;  * In db only image names are stored" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="25" />
+      <option name="time" value="28" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1165,15 +1248,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/classie.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/set2.css" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/cs-skin-elastic.css" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/css/cs-select.css" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/contacts.jsp" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/login.jsp" />
@@ -1232,20 +1306,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/controllers.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/beans/Users.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/beans/Comments.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/validators/register/EmailValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/validators/login/PasswordValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/style_login.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="452">
@@ -1264,13 +1324,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
           <caret line="93" column="27" selection-start-line="93" selection-start-column="27" selection-end-line="93" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/validators/login/NameValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -1312,38 +1365,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/validators/register/NameValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/validators/register/PasswordValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/register.xhtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="32" column="72" selection-start-line="32" selection-start-column="72" selection-end-line="32" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/login.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="28" column="169" selection-start-line="28" selection-start-column="169" selection-end-line="28" selection-end-column="169" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/templates/header.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="50" column="53" selection-start-line="50" selection-start-column="53" selection-end-line="50" selection-end-column="53" />
         </state>
       </provider>
     </entry>
@@ -1368,13 +1393,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/CommentServlet.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -1394,6 +1412,79 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/servlets/ShowImage.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/beans/GraphicImage.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/item.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="48" column="71" selection-start-line="48" selection-start-column="71" selection-end-line="48" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+          <folding>
+            <element signature="n#ui:insert#0;n#div#0;n#div#0;n#h:body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ui:insert#0;n#div#0;n#h:body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/login.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="28" column="169" selection-start-line="28" selection-start-column="169" selection-end-line="28" selection-end-column="169" />
+          <folding>
+            <element signature="n#h:inputText#0;n#p#0;n#h:form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#p#1;n#h:form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#h:inputSecret#0;n#p#1;n#h:form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/validators/login/NameValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/validators/register/NameValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/validators/register/EmailValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/validators/register/PasswordValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/validators/login/PasswordValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/beans/Comment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -1402,96 +1493,116 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/templates/header.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="51" column="27" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
+          <folding>
+            <element signature="n#h:form#0;n#div#0;n#h:outputLabel#1;n#div#0;n#ui:composition#0;n#h:body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/beans/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/CommentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="21" column="54" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/beans/GraphicImage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="105">
+          <caret line="103" column="5" selection-start-line="103" selection-start-column="5" selection-end-line="103" selection-end-column="5" />
+          <folding>
+            <element signature="e#3373#3374#0" expanded="true" />
+            <element signature="e#3405#3406#0" expanded="true" />
+            <element signature="e#3515#3516#0" expanded="true" />
+            <element signature="e#3549#3550#0" expanded="true" />
+            <element signature="e#3671#3672#0" expanded="true" />
+            <element signature="e#3711#3712#0" expanded="true" />
+            <element signature="e#3741#3742#0" expanded="true" />
+            <element signature="e#3766#3767#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/beans/ImagesView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+        <state relative-caret-position="289">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#686#687#0" expanded="true" />
-            <element signature="e#715#716#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/db/DBUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="133" column="38" selection-start-line="133" selection-start-column="38" selection-end-line="133" selection-end-column="38" />
+        <state relative-caret-position="496">
+          <caret line="185" column="33" selection-start-line="185" selection-start-column="33" selection-end-line="185" selection-end-column="33" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1491730356392" expanded="true" signature="539:588" ph="SELECT * FRO... users" />
-            <marker date="1491730356392" expanded="true" signature="1366:1428" ph="INSERT INTO users... " />
-            <marker date="1491730356392" expanded="true" signature="1509:1563" ph="INSERT INTO user_roles... " />
-            <marker date="1491730356392" expanded="true" signature="1509:1571" ph="INSERT INTO user_roles... " />
-            <marker date="1491730356392" expanded="true" signature="2352:2562" ph="SELECT comme... " />
-            <marker date="1491730356392" expanded="true" signature="2352:2582" ph="SELECT comme... " />
-            <marker date="1491730356392" expanded="true" signature="2352:2583" ph="SELECT comme... " />
-            <marker date="1491730356392" expanded="true" signature="2352:2596" ph="SELECT comme... " />
-            <marker date="1491730356392" expanded="true" signature="2352:2597" ph="SELECT comme... " />
-            <marker date="1491730356392" expanded="true" signature="3749:3806" ph="SELECT COUNT... comments" />
-            <marker date="1491730356392" expanded="true" signature="3749:3807" ph="SELECT COUNT... comments" />
-            <marker date="1491730356392" expanded="true" signature="4252:4324" ph="INSERT INTO comments... " />
-            <marker date="1491730356392" expanded="true" signature="4927:4956" ph="UPDATE comme... " />
-            <marker date="1491730356392" expanded="true" signature="4927:4958" ph="UPDATE comme... " />
-            <marker date="1491730356392" expanded="true" signature="4927:4971" ph="UPDATE comme... " />
-            <marker date="1491730356392" expanded="true" signature="5408:5439" ph="DELETE FROM " />
-            <marker date="1491730356392" expanded="true" signature="5408:5440" ph="DELETE FROM " />
-            <marker date="1491730356392" expanded="true" signature="5408:5441" ph="DELETE FROM " />
-            <marker date="1491730356392" expanded="true" signature="5408:5444" ph="DELETE FROM " />
-            <marker date="1491730356392" expanded="true" signature="5957:6004" ph="SELECT image... images" />
+            <marker date="1491833639101" expanded="true" signature="539:588" ph="SELECT id, u... users" />
+            <marker date="1491833639101" expanded="true" signature="1368:1437" ph="SELECT id, u... users" />
+            <marker date="1491833639101" expanded="true" signature="2224:2286" ph="INSERT INTO users... " />
+            <marker date="1491833639101" expanded="true" signature="2367:2429" ph="INSERT INTO user_roles... " />
+            <marker date="1491833639101" expanded="true" signature="3210:3455" ph="SELECT comme... " />
+            <marker date="1491833639101" expanded="true" signature="4607:4665" ph="SELECT COUNT... comments" />
+            <marker date="1491833639101" expanded="true" signature="5110:5182" ph="INSERT INTO comments... " />
+            <marker date="1491833639101" expanded="true" signature="5785:5829" ph="UPDATE comme... " />
+            <marker date="1491833639101" expanded="true" signature="6315:6348" ph="DELETE FROM " />
+            <marker date="1491833639101" expanded="true" signature="6864:6911" ph="SELECT image... images" />
+            <marker date="1491833639101" expanded="true" signature="7555:7598" ph="UPDATE users... " />
+            <marker date="1491833639101" expanded="true" signature="8072:8111" ph="UPDATE users... " />
+            <marker date="1491833639101" expanded="true" signature="8592:8635" ph="UPDATE users... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/item.xhtml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/validators/update/OldPasswordValidator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="27" column="74" selection-start-line="27" selection-start-column="74" selection-end-line="27" selection-end-column="74" />
+        <state relative-caret-position="272">
+          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="26" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/validators/update/NewPasswordValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="97" selection-start-line="18" selection-start-column="97" selection-end-line="18" selection-end-column="97" />
           <folding>
-            <element signature="n#div#4;n#div#0;n#div#0;n#ui:define#0;n#ui:composition#0;n#h:body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#h:form#0;n#div#4;n#div#0;n#div#0;n#ui:define#0;n#ui:composition#0;n#h:body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#c:forEach#0;n#h:form#0;n#div#4;n#div#0;n#div#0;n#ui:define#0;n#ui:composition#0;n#h:body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#c:forEach#0;n#h:form#0;n#div#4;n#div#0;n#div#0;n#ui:define#0;n#ui:composition#0;n#h:body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#h:panelGroup#0;n#div#0;n#c:forEach#0;n#h:form#0;n#div#4;n#div#0;n#div#0;n#ui:define#0;n#ui:composition#0;n#h:body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#h:inputTextarea#0;n#h:panelGroup#0;n#div#0;n#c:forEach#0;n#h:form#0;n#div#4;n#div#0;n#div#0;n#ui:define#0;n#ui:composition#0;n#h:body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#h:commandButton#0;n#h:panelGroup#0;n#div#0;n#c:forEach#0;n#h:form#0;n#div#4;n#div#0;n#div#0;n#ui:define#0;n#ui:composition#0;n#h:body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#h:commandButton#1;n#h:panelGroup#0;n#div#0;n#c:forEach#0;n#h:form#0;n#div#4;n#div#0;n#div#0;n#ui:define#0;n#ui:composition#0;n#h:body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#c:forEach#1;n#h:form#0;n#div#4;n#div#0;n#div#0;n#ui:define#0;n#ui:composition#0;n#h:body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#h:commandLink#0;n#c:forEach#1;n#h:form#0;n#div#4;n#div#0;n#div#0;n#ui:define#0;n#ui:composition#0;n#h:body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#h:form#0;n#div#0;n#div#0;n#ui:define#0;n#ui:composition#0;n#h:body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/profile.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="52" column="103" selection-start-line="52" selection-start-column="103" selection-end-line="52" selection-end-column="103" />
+          <folding>
+            <element signature="n#h:head#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#p:inplace#0;n#h:panelGrid#0;n#h:form#0;n#div#0;n#div#0;n#ui:define#0;n#ui:composition#0;n#h:body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#p:inplace#1;n#h:panelGrid#0;n#h:form#0;n#div#0;n#div#0;n#ui:define#0;n#ui:composition#0;n#h:body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#p:password#0;n#h:panelGrid#0;n#h:panelGrid#0;n#h:form#0;n#div#0;n#div#0;n#ui:define#0;n#ui:composition#0;n#h:body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/CommentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="59" column="27" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#833#834#0" expanded="true" />
+            <element signature="e#870#871#0" expanded="true" />
+            <element signature="e#1044#1045#0" expanded="true" />
+            <element signature="e#1082#1083#0" expanded="true" />
+            <element signature="e#1265#1266#0" expanded="true" />
+            <element signature="e#1306#1307#0" expanded="true" />
           </folding>
         </state>
       </provider>

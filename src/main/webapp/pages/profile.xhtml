@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+<h:head>
+    <title>Main Page</title>
+    <h:outputStylesheet library="css" name="normalize.css"/>
+    <h:outputStylesheet library="css" name="about_styles.css"/>
+    <h:outputStylesheet library="css" name="style.css"/>
+    <h:outputStylesheet library="css" name="main_page.css"/>
+    <h:outputStylesheet library="css" name="font-awesome.min.css"/>
+    <h:outputStylesheet library="css" name="vicons-font.css"/>
+    <h:outputStylesheet library="css" name="animate.css"/>
+    <h:outputStylesheet library="css" name="how_to_styles.css"/>
+    <h:outputStylesheet library="css" name="item_style.css"/>
+    <meta name="description" content="Bla"/>
+    <meta name="viewport" content="width-device-width, initial-scale=1"/>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'/>
+    <h:outputScript library="js" name="swing.js"/>
+
+</h:head>
+<h:body>
+    <ui:composition template="../index.xhtml">
+        <ui:define name="content">
+            <div id="first_wrapper">
+                <div id="main_info">
+                    <h:form>
+                        <h:panelGrid columns="2" columnClasses="column" cellpadding="5">
+                            <h:outputLabel for="name" value="Name:" />
+                            <p:inplace id="name" editor="true">
+                                <p:inputText value="#{userController.userName}" required="true" label="text"/>
+                            </p:inplace>
+
+                            <h:outputLabel for="email" value="E-mail:"/>
+                            <p:inplace id="email" editor="true">
+                                <p:inputText value="#{userController.userEmail}" required="true" label="text"/>
+                            </p:inplace>
+
+                            <p:messages id="messages" showDetail="true" autoUpdate="true" />
+
+                            <h:panelGrid columns="2" id="matchGrid" cellpadding="5">
+                                <h:outputLabel for="old" value="Old password: *"/>
+                                <p:password id="old" value="#{user.password}" label="Old password" required="true">
+                                    <f:validator validatorId="validators.update.OldPasswordValidator"/>
+                                </p:password>
+
+                                <h:outputLabel for="pwd1" value="New password: *" />
+                                <p:password id="pwd1" value="#{userController.userPassword}" match="pwd2" label="Password 1" required="true" feedback="true">
+                                    <f:validator validatorId="validators.update.NewPasswordValidator"/>
+                                </p:password>
+
+                                <h:outputLabel for="pwd2" value="Repeat new password: *" />
+                                <p:password id="pwd2" value="#{userController.userPassword}" label="Password 2" required="true" />
+                            </h:panelGrid>
+
+                            <p:commandButton update="matchGrid" value="Save" />
+                        </h:panelGrid>
+                    </h:form>
+                </div>
+            </div>
+        </ui:define>
+    </ui:composition>
+</h:body>
+</html>

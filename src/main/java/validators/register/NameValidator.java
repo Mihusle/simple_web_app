@@ -21,16 +21,25 @@ public class NameValidator implements Validator {
     
     @Override
     public void validate(FacesContext facesContext, UIComponent uiComponent, Object o) throws ValidatorException {
+        String name = o.toString();
+        checkNameSymbols(name);
+        checkExistenceOfSuchName(name);
+    }
+    
+    private void checkNameSymbols(String name) {
         Pattern pattern = Pattern.compile(".*//W+.*");
-        Matcher matcher = pattern.matcher(o.toString());
+        Matcher matcher = pattern.matcher(name);
         if (matcher.matches()) {
-            FacesMessage message = new FacesMessage("Wrong name");
+            FacesMessage message = new FacesMessage("Incorrect symbols in the name");
             message.setSeverity(FacesMessage.SEVERITY_ERROR);
             throw new ValidatorException(message);
         }
+    }
+    
+    private void checkExistenceOfSuchName(String name) {
         List<String> names = new ArrayList<>();
         DBUtils.getAllUsers().forEach(user -> names.add(user.getName()));
-        if (names.contains(o.toString())) {
+        if (names.contains(name)) {
             FacesMessage message = new FacesMessage("Such name is taken already");
             message.setSeverity(FacesMessage.SEVERITY_ERROR);
             throw new ValidatorException(message);

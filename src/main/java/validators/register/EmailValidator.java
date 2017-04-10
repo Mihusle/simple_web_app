@@ -21,16 +21,25 @@ public class EmailValidator implements Validator {
     
     @Override
     public void validate(FacesContext facesContext, UIComponent uiComponent, Object o) throws ValidatorException {
+        String email = o.toString();
+        checkEmailSymbols(email);
+        checkExistenceOfSuchEmail(email);
+    }
+    
+    private void checkEmailSymbols(String email) {
         Pattern pattern = Pattern.compile(".+@.+\\.com|ru");
-        Matcher matcher = pattern.matcher(o.toString());
+        Matcher matcher = pattern.matcher(email);
         if (!matcher.matches()) {
             FacesMessage message = new FacesMessage("Wrong email");
             message.setSeverity(FacesMessage.SEVERITY_ERROR);
             throw new ValidatorException(message);
         }
+    }
+    
+    private void checkExistenceOfSuchEmail(String email) {
         List<String> emails = new ArrayList<>();
         DBUtils.getAllUsers().forEach(user -> emails.add(user.getEmail()));
-        if (emails.contains(o.toString())) {
+        if (emails.contains(email)) {
             FacesMessage message = new FacesMessage("Such email is taken already");
             message.setSeverity(FacesMessage.SEVERITY_ERROR);
             throw new ValidatorException(message);

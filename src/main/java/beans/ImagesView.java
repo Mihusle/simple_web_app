@@ -15,16 +15,16 @@ import java.util.List;
 @ManagedBean
 public class ImagesView {
     
-    private List<String> images;
+    private List<String> imageNames;
     
     @PostConstruct
     public void init() {
         HttpServletRequest request = (HttpServletRequest) FacesContext.getCurrentInstance().getExternalContext().getRequest();
         int itemId = Integer.parseInt(request.getParameter("item_id"));
-        images = DBUtils.getImageNames(itemId);
+        imageNames = DBUtils.getImageNames(itemId);
     }
     
-    public List<String> getImages() {
-        return images;
+    public List<String> getImageNames() {
+        return imageNames;
     }
 }
